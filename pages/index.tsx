@@ -1081,7 +1081,7 @@ export default function Main() {
   const [identifier, setIdentifier] = useState<string | null>(null);
   const agent = useRef<BskyAgent>(
     new BskyAgent({
-      service: "https://bsky.social",
+      service: "https://stems.social",
     })
   ).current;
 
