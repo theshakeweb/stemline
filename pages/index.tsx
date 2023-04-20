@@ -563,7 +563,7 @@ function TimelineScreen(props: {
 function Header() {
   const subheaders = [
     "better algorithms make better people",
-    "foliage is the timeline of Stems",
+    "photosynthesis is the timeline of Stems",
   ];
   const [subheader, setSubheader] = useState<string>("");
   useEffect(() => {
@@ -573,7 +573,7 @@ function Header() {
   return (
     <>
       <div className="text-xl font-light mt-4">
-        <span className="text-green-500">Foliage</span>
+        <span className="text-green-500">Photosynthesis</span>
       </div>
       <div className="text-sm font-light text-black/70 mb-4">{subheader}</div>
     </>
@@ -1080,7 +1080,7 @@ export default function Main() {
   return (
     <>
       <Head>
-        <title>Foliage</title>
+        <title>Photosynthesis</title>
         <link rel="icon" href="/skyline-16.png" />
       </Head>
       {identifier ? (
