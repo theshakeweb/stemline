@@ -574,14 +574,7 @@ function Header() {
   return (
     <>
       <div className="text-xl font-light mt-4">
-        {/* spells skyline.gay in pride flag colors */}
-        <span className="text-red-500">s</span>
-        <span className="text-orange-500">k</span>
-        <span className="text-yellow-500">y</span>
-        <span className="text-green-500">l</span>
-        <span className="text-blue-500">i</span>
-        <span className="text-purple-500">n</span>
-        <span className="text-pink-500">e</span>
+        <span className="text-green-500">Stems</span>
       </div>
       <div className="text-sm font-light text-black/70 mb-4">{subheader}</div>
     </>
@@ -1011,7 +1004,7 @@ function LoginScreen(props: {
       {/* An offset equal to the security info (ish) */}
       <div className="h-32" />
       {/* The title */}
-      <h1 className="text-3xl font-bold mb-6">Login to Bluesky</h1>
+      <h1 className="text-3xl font-bold mb-6">Login to Stems</h1>
       {/* The login form */}
       <form
         className="flex flex-col"
@@ -1065,7 +1058,7 @@ function SecurityInfo() {
         <li>
           If you don't trust us, you can always check the source code of{" "}
           <a
-            href="https://github.com/louislva/skyline"
+            href="https://github.com/theshakeweb/stemline"
             className="text-blue-500"
             target="_blank"
           >
@@ -1088,7 +1081,7 @@ export default function Main() {
   return (
     <>
       <Head>
-        <title>Skyline</title>
+        <title>Stems</title>
         <link rel="icon" href="/skyline-16.png" />
       </Head>
       {identifier ? (
